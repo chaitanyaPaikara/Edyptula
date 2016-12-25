@@ -1,0 +1,9 @@
+types of parameter for { module_param() } i.e, byte, int, uint, long, ulong, short, ushort, bool, an inverse Boolean invbool, or a char pointer charp.
+
+ The log levels are defined in linux/kern_levels.h as one of KERN_EMERG, KERN_ALERT, KERN_CRIT, KERN_ERR, KERN_WARNING, KERN_NOTICE, KERN_INFO, KERN_DEBUG, and KERN_DEFAULT. This header is included via the linux/kernel.h header file, which includes it via linux/printk.h.
+
+sudo insmod Hello.ko
+
+file_operation_fs.h  contains function pointers for all the functions within the driver.
+If any operation is not defined then it would point to NULL. 
+
