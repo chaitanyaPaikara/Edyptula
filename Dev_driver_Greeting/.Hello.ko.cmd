@@ -1,0 +1,1 @@
+cmd_/home/pi/Documents/Edyptula/Dev_driver_Greeting/Hello.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/Documents/Edyptula/Dev_driver_Greeting/Hello.ko /home/pi/Documents/Edyptula/Dev_driver_Greeting/Hello.o /home/pi/Documents/Edyptula/Dev_driver_Greeting/Hello.mod.o
