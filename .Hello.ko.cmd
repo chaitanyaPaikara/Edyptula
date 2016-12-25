@@ -1,0 +1,1 @@
+cmd_/home/pi/Documents/Edyptula/Hello.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/Documents/Edyptula/Hello.ko /home/pi/Documents/Edyptula/Hello.o /home/pi/Documents/Edyptula/Hello.mod.o
