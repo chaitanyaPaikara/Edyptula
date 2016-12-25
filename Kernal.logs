@@ -1,0 +1,10 @@
+Dec 25 20:39:40 raspberrypi kernel: [   12.910594] Bluetooth: HCI UART protocol H4 registered
+Dec 25 20:39:40 raspberrypi kernel: [   12.910604] Bluetooth: HCI UART protocol Three-wire (H5) registered
+Dec 25 20:39:40 raspberrypi kernel: [   12.910771] Bluetooth: HCI UART protocol BCM registered
+Dec 25 20:39:41 raspberrypi kernel: [   13.121270] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Dec 25 20:39:41 raspberrypi kernel: [   13.121290] Bluetooth: BNEP filters: protocol multicast
+Dec 25 20:39:41 raspberrypi kernel: [   13.121314] Bluetooth: BNEP socket layer initialized
+Dec 25 20:50:20 raspberrypi kernel: [  652.829756] F**K : Hello Peeps... from the LKM Module.
+Dec 25 20:51:05 raspberrypi kernel: [  697.884303] F**K : Goodbye Peeps... from the LKM Module
+Dec 25 20:51:54 raspberrypi kernel: [  746.341626] F**K : Hello fuddi from the LKM Module.
+Dec 25 20:54:37 raspberrypi kernel: [  909.131184] F**K : Goodbye fuddi from the LKM Module
