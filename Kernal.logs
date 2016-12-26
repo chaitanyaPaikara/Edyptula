@@ -8,3 +8,15 @@ Dec 25 20:50:20 raspberrypi kernel: [  652.829756] F**K : Hello Peeps... from th
 Dec 25 20:51:05 raspberrypi kernel: [  697.884303] F**K : Goodbye Peeps... from the LKM Module
 Dec 25 20:51:54 raspberrypi kernel: [  746.341626] F**K : Hello fuddi from the LKM Module.
 Dec 25 20:54:37 raspberrypi kernel: [  909.131184] F**K : Goodbye fuddi from the LKM Module
+
+
+Starting device test code example...
+Type in a short string to send to the kernel module:
+hello how are you
+Writing message to the device [hello how are you].
+Press ENTER to read back from the device...
+
+Reading from the device...
+The received message is: [hello how are you(17 letters)]
+End of the program
+
