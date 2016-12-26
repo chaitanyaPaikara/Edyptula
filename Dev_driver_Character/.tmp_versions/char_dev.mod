@@ -1,2 +1,2 @@
-/home/chaitanya/Documents/Eudyptula/Dev_driver_Character/char_dev.ko
-/home/chaitanya/Documents/Eudyptula/Dev_driver_Character/char_dev.o
+/home/pi/Documents/Eudyptula/Dev_driver_Character/char_dev.ko
+/home/pi/Documents/Eudyptula/Dev_driver_Character/char_dev.o
