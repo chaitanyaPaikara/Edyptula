@@ -12,9 +12,9 @@ int main(){
    int ret, fd;
    char stringToSend[BUFFER_LENGTH];
    printf("Starting device test code example...\n");
-   fd = open("/dev/ebbchar", O_RDWR);             // Open the device with read/write access
+   fd = open("/dev/char_dev", O_RDWR);             // Open the device with read/write access
    if (fd < 0){
-      perror("Failed to open the device...");
+      perror("Failed to open the device...\n");
       return errno;
    }
    printf("Type in a short string to send to the kernel module:\n");
