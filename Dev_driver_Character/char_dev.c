@@ -14,7 +14,7 @@ MODULE_VERSION("0.1");
 
 static int majorNumber;
 static char message[256] = {0};
-static short size_of _messages;
+static short size_of_messages;
 static int numberOpens = 0;
 static struct class* RPI_dev_Class = NULL;
 static struct device* char_dev_Device = NULL;
@@ -33,20 +33,20 @@ static struct file_operations fops =
 	};
 
 static int __init char_dev_init(void){
-	printkl(KERN_INFO "F**K : Loading and Initialing the LKM.\n");
+	printk(KERN_INFO "F**K : Loading and Initialing the LKM.\n");
 	majorNumber = register_chrdev(0, DEVICE_NAME, &fops);
 	if(majorNumber < 0){
 		printk(KERN_ALERT "F**K : Failed to register the major Number.\n");
 		return majorNumber;
 	}
 	printk(KERN_INFO "F**K : Register the major Number.\n");
-	RPI_dev_class = class_create(THIS_MODULE, CLASS_NAME);
+	RPI_dev_Class = class_create(THIS_MODULE, CLASS_NAME);
 	if(IS_ERR(RPI_dev_class)){
 		unregister_chrdev(majorNumber, DEVICE_NAME);
 		printk(KERN_ALERT "F**K : Failed to register the DEVICE CLASS.\n");
 		return PTR_ERR(RPI_dev_class);
 	}
-	char_dev_device = device_create(RPI_dev_class, NULL, MKDEV(majorNumber, 0), NULL, DEVICE_NAME);
+	char_dev_Device = device_create(RPI_dev_class, NULL, MKDEV(majorNumber, 0), NULL, DEVICE_NAME);
         if(IS_ERR(char_dev_class)){
 		class_destroy(RPI_dev_class);
                 unregister_chrdev(majorNumber, DEVICE_NAME);
