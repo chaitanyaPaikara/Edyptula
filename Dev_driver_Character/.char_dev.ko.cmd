@@ -1,0 +1,1 @@
+cmd_/home/chaitanya/Documents/Eudyptula/Dev_driver_Character/char_dev.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/chaitanya/Documents/Eudyptula/Dev_driver_Character/char_dev.ko /home/chaitanya/Documents/Eudyptula/Dev_driver_Character/char_dev.o /home/chaitanya/Documents/Eudyptula/Dev_driver_Character/char_dev.mod.o
